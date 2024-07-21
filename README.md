@@ -1,4 +1,6 @@
-# "Посмотри в окно" 
+https://github.com/assaultasfuck/posmotri_v_okno
+
+# "Посмотри в окно"
 
 ### Описание
 
