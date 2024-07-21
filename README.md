@@ -10,6 +10,6 @@ ___
 ***спасибо команде яндекс практикум за такой интересный кейс!***
 ___
 ### **Автор**
->github - [assaultasfuck](https://github.com/assaultasfuck)
+>github - [Посмотри в окно](https://github.com/assaultasfuck/posmotri_v_okno_clone)
 
 >gmail - [Сырников Данил](otayzimq25@gmail.com)
