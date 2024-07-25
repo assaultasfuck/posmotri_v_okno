@@ -45,6 +45,11 @@ ol {
   display: flex;
 }
 
+.content__details {
+  inline-size: 100%;
+}
+
+
 /* specials */
 
 .button {
@@ -54,11 +59,9 @@ ol {
   font-size: 18px;
   font-weight: 700;
   color: #fff;
-  border: none;
   outline: none;
   border: 1px solid #fff;
   min-height: 34px;
-  max-height: 34px;
   text-wrap: nowrap;
 }
 
@@ -71,6 +74,14 @@ ol {
   outline-offset: 1px;
 }
 
+.button:hover {
+  text-decoration: underline;
+
+}
+
+.more-button {
+  padding: 6px 145px;
+}
 
 .visually-hidden {
   position: absolute;
@@ -105,7 +116,6 @@ ol {
   inline-size: 711px;
   margin: 0 0 11px;
   margin-bottom: 16px;
-  width: 711px;
   height: 386px;
 }
 /* search form */
@@ -143,7 +153,6 @@ ol {
 
 .search-form__label-text {
   cursor: pointer;
-  text-decoration: underline;
 }
 
 .search-form__textfield {
@@ -215,7 +224,6 @@ ol {
 
 .search-form__submit-button:hover {
   text-decoration: underline;
-  border: 1px solid #fff;
 }
 
 
@@ -234,15 +242,11 @@ ol {
   color: rgba(84, 80, 80, 1);
 }
 
-.content__list::-webkit-scrollbar {
-  display: none;
-}
 
 .content__list {
   position: relative;
   height: 298px;
   overflow-y: auto;
-  scrollbar-width: none;
   padding: 2px;
 }
 
@@ -252,6 +256,10 @@ ol {
 
 .content__list-item:has(:focus-visible) {
   outline: 1px solid #fff;  
+}
+
+.content__list-item:last-child {
+  margin-bottom: 0;
 }
 
 .content__card-link {
@@ -291,12 +299,13 @@ ol {
 }
 
 .content__video-card-title {
+  padding: 2px 2px 5px;
+  color: #FFF;
   font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 30px;
+  line-height: 1;
   text-transform: uppercase;
-  color: #fff;
-  text-decoration: none;
 }
 
 .content__video-card-description {
@@ -304,6 +313,7 @@ ol {
   font-weight: 400;
   font-size: 18px;
   color: #fff;
+  hyphens: auto;
 }
 
 .content__video-card-thumbnail {
@@ -311,13 +321,4 @@ ol {
   object-position: center ;
   width: 194px;
   height: 103px;
-}
-
-.more-button {
-  padding: 6px 145px;
-}
-
-.more-button:hover {
-  text-decoration: underline;
-  border: 1px solid #fff;
 }
